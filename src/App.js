@@ -10,7 +10,7 @@ function App() {
   const deleteItem =(id)=>{
     console.log(id);
     const filll=finaldata.filter((element,index)=>{
-        return element.id!=id
+        return element.id!==id
     })
     setfinaldata(filll)
 }
