@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Radio from './component/Radio';
+import Country from './component/country';
+import Bhut from './component/bhut';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    {/* <Radio /> */}
+    {/* <Country /> */}
+    {/* <Bhut/> */}
   </React.StrictMode>
 );
 
